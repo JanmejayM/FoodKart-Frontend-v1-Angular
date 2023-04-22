@@ -1,0 +1,59 @@
+<nav class="navbar navbar-light navbar-expand-md navbar-fixed-top p-2">
+  
+    <div class="container-fluid">
+      <a routerLink="/user"><i class="fas fa-utensils fa-2x text-danger"></i><span>  FoodKart</span></a>
+        
+
+      
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+          
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+          <div class="mx-auto"></div>
+
+          <ul class="navbar-nav" style="font-weight: 900;">
+            <li class="nav-item">
+              <a routerLink='/user'><i class="fa fa-home" aria-hidden="true"></i>
+                Home</a>
+
+            </li>
+            
+           
+
+
+            
+            
+            <li class="nav-item">
+              <a routerLink='/user/contactus'><i class="fa fa-solid fa-phone fa-rotate-90"></i>
+                Contact Us</a>
+
+            </li>
+
+
+            <li class="nav-item">
+              <a routerLink='/user/cart'><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              Cart</a>
+              
+            </li>
+          
+            
+            <li class="nav-item">
+              <a (click)="logOut()" href="#"><i class="fa fa-power-off" aria-hidden="true"></i>
+                Logout</a>
+            </li>
+
+
+
+
+
+
+          </ul>
+        </div>
+      </div>
+  </nav>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">

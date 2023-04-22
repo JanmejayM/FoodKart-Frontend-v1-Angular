@@ -2,14 +2,18 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
-    "noImplicitReturns": true,
+    "noImplicitReturns": false,
+    "strictPropertyInitialization": false,
+
     "noFallthroughCasesInSwitch": true,
+
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
@@ -19,6 +23,10 @@
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
+    "types": [
+      "@types/mocha",
+      "@types/jest"
+    ],
     "lib": [
       "ES2022",
       "dom"

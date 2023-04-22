@@ -1,0 +1,21 @@
+<app-private-navbar></app-private-navbar>
+<div class="center">
+
+    <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Us</h2>
+          <p>Leave us a message:</p>
+        </div>
+          
+            <div>
+             
+                <p class="mail">Mail:  <span class="mailid">kart@gmail.com</span></p>
+
+              <label for="subject">Feedback :</label>
+              <textarea id="feedback" [(ngModel)]="content" name="Feedback" placeholder="Write something.." style="height:170px"></textarea>
+              <div class="btn">
+              <button class="btn btn-success"  (click)="addfeedback()">Submit</button>
+              </div>
+            </div>
+      </div>
+  </div>
